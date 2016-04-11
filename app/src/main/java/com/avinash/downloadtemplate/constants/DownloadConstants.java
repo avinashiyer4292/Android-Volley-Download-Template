@@ -5,8 +5,7 @@ package com.avinash.downloadtemplate.constants;
  */
 public class DownloadConstants {
     private String url = "";
-    private String database = "";
-    private String table = "";
+
 
     public String getUrl() {
         return url;
@@ -16,19 +15,4 @@ public class DownloadConstants {
         this.url = url;
     }
 
-    public String getDatabase() {
-        return database;
-    }
-
-    public void setDatabase(String database) {
-        this.database = database;
-    }
-
-    public String getTable() {
-        return table;
-    }
-
-    public void setTable(String table) {
-        this.table = table;
-    }
 }
